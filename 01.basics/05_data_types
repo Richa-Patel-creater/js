@@ -1,0 +1,42 @@
+//primitive
+//7 types: String, Boolean, Number, BigInt, Null, Undefined, Symbol
+
+const name="Richa";
+const isLoggedIn=false;
+const Id=123;
+const floatValue=23.5; //number
+const bigNumber=12633792380838746363738n;  //bigInt
+let temperature=null;  // empty (not zero)
+let userEmail; // this is equal to userEmail=undefined;
+
+const id=Symbol('123');
+const anotherid=Symbol('123');
+console.log(id==anotherid)
+
+//reference(Non-Primitive) //return type object-->function=functional object
+//Array, Objects, Functions
+
+const heros=["thor", "spiderman", "ironman"];
+
+const myobj= {
+    name:"richa",
+    age:22 
+}
+
+const myfunc= function(){
+    console.log("hello world")
+}
+
+/*
+ JavaScript is a dynamically typed language. 
+ This means that the data type of a variable is determined
+ at runtime based on the value assigned to it, rather than 
+ being explicitly declared by the developer.
+
+ 1.No Explicit Type Declaration
+ 2.Reassignment Flexibility
+ 3.Runtime Type Checking
+
+
+ return type of null is object
+*/
