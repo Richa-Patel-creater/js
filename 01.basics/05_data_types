@@ -40,3 +40,29 @@ const myfunc= function(){
 
  return type of null is object
 */
+
+//Stack(primitive)
+
+let myId="richa";
+let userId=myId;
+userId="hello";
+
+console.log(myId);  //richa
+console.log(Id);    //hello
+
+//Heap(Non primitive)
+
+
+let user1={
+    userMail: "abc@google.com",
+    upi: "user@ybl"
+}
+
+let user2=user1;
+
+user1.userMail="user@gmail.com";  
+
+console.log(user1.userMail);  //user@gmail.com
+console.log(user2.userMail);  //user@gmail.com
+
+
